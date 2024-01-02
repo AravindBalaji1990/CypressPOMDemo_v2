@@ -1,0 +1,19 @@
+{
+  "name": "pomversion2",
+  "version": "1.0.0",
+  "description": "pageobject model 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aravindbalaji",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
