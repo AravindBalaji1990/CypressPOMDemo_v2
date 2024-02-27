@@ -8,6 +8,7 @@ describe('template spec', () => {
   
   it('passes check for url', () => {
     home.visit()
+    cy.url().should('have.text',"ecommerce")
   })
 
   it("should search for a product", () => {

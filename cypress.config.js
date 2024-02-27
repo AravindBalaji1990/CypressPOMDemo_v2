@@ -11,6 +11,12 @@ module.exports = defineConfig({
   },
   screenshotOnRunFailure: false, // if yo make it as false only when it fails screenshots are capture
   screenshotsFolder:"ss_folder",
+  requestTimeout: 5000,
+  responseTimeout: 30000,
+retries: {
+runMode: 1,
+openMode: 2,
+},
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
